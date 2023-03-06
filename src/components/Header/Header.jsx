@@ -13,7 +13,7 @@ export default function Header() {
         /* CONTAIN1 */
         gsap.to(".img", {delay:1.2, duration:1, opacity:1 , y:10, scale:1})
         gsap.to(".navbar", {delay:1.4, duration:1, opacity:1 , y:10})
-        gsap.to(".title", {delay:1.9, duration:1, opacity:1 , y:10})
+        gsap.to(".title", {delay:1.9, duration:1, opacity:1 , y:-40})
         gsap.to(".headerParag", {delay:2.3, duration:1, opacity:1 , y:-10})
 
       /*   gsap.to(".contain1", {
@@ -71,9 +71,9 @@ export default function Header() {
     </div>
 
     <div className="headerTitle">
-        <h1 className='title'> DIGITAL PROFESSIONAL MARKETING AGENCY</h1>
+        <h1 className='title'>PROFESSIONAL MARKETING AGENCY</h1>
 
-        <p className="headerParag">This agency is the next generation of upgrading stuff we like to help people achieve their dream goals and dream websites that what set us apart from the others we are professionals we are awesome.</p>
+        <p className="headerParag">THE FUTURE IS OURS.</p>
 
         <div className="headerImg">
             <img className='img' src=".\images\pexels-manuel-michael-14691909 (1).jpg" alt="//" />
@@ -90,7 +90,11 @@ export default function Header() {
 
     <div className="about">
         <h3 className="ab">ABOUT</h3>
-        <p className="text">intresting text ha yes i know anyways balh blah bla qwe rttzu ioooppü aass dddd fffff ggfds  hjkk ll  ööökj mnbv  cxyy intresting text ha yes i know anyways balh blah bla qwe rttzu ioooppü aass dddd fffff ggfds  hjkk ll  ööökj mnbv  cxyy intresting text ha yes i know anyways balh blah bla qwe rttzu ioooppü aass dddd fffff ggfds  hjkk ll  ööökj mnbv  cxyy  intresting text ha yes i know anyways balh blah bla qwe rttzu ioooppü aass dddd fffff ggfds  hjkk ll  ööökj mnbv  cxyyintresting text ha yes i know anyways balh blah bla qwe rttzu ioooppü aass dddd fffff ggfds  hjkk ll  ööökj mnbv  cxyy</p>
+        <p className="text">At our design agency, we are passionate about creating stunning and effective designs that truly make an impact. We pride ourselves on our ability to take a client's vision and turn it into a beautiful and functional design that exceeds their expectations. Our team of talented designers is dedicated to staying up-to-date with the latest design trends and technologies, allowing us to create innovative and cutting-edge designs that set our clients apart from the competition. Whether it's a website, logo, or marketing materials, we approach every project with a creative mindset and a commitment to excellence. We believe that great design can change the world, and we're proud to be a part of that change through our work.
+
+
+
+</p>
     </div>
 
 
@@ -100,9 +104,6 @@ export default function Header() {
 
 
     <div className="contain3">
-<p className='qq'>smekmcmc
-655px655px655px655px655px655px
-vvvv655px655px655px655px655px655px655px655px655px655px</p>
     </div>
 
 

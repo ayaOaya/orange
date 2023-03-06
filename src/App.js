@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header/Header';
-import Lenis from '@studio-freight/lenis'
+import Lenis from '@studio-freight/lenis';
+import Nav from './components/Nav/Nav';
 
 
 
@@ -29,6 +30,8 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Nav />
+     
     </div>
   );
 }

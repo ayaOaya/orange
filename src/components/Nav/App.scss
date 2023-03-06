@@ -1,0 +1,31 @@
+.nav{
+    margin: 0;
+    background-color: #262626;
+    color: #D36B2D;
+    height: 170vh;
+
+    .h1{
+        text-align: center;
+        padding: 55px 0;
+        opacity: 0;
+
+    }
+    .parag{
+        text-align: center;
+        padding: 10px 50px;
+        line-height: 35px;
+        opacity: 0;
+    }
+    .btn{
+        margin-top: 200px;
+        padding: 10px 20px;
+        background-color: #D36B2D;
+        color: #262626;
+        margin-left: 670px;
+        border: none;
+        border-radius: 5px;
+    }
+    .btn:hover{
+        cursor: pointer;
+    }
+}
