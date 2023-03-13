@@ -26,7 +26,7 @@ export default function Header() {
                 scrub:true,
             }
         }) */
-
+/* Add the hove ef */
       
 
         gsap.to(".contain2", {
